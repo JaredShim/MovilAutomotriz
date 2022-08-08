@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/Generales"
+            android:icon="@drawable/abc_vector_test"
+            android:title="Generales"/>
+        <item android:id="@+id/SistemasMotor"
+            android:icon="@drawable/abc_vector_test"
+            android:title="Sistemas Motor"/>
+        <item android:id="@+id/GeneralesMotor"
+            android:icon="@drawable/abc_vector_test"
+            android:title="Generales Motor"/>
+        <item android:id="@+id/Automotrices"
+            android:icon="@drawable/abc_vector_test"
+            android:title="Automotrices"/>
+        <item android:id="@+id/Carroceria"
+            android:icon="@drawable/abc_vector_test"
+            android:title="Carroceria"/>
+        <item android:id="@+id/Interiores"
+            android:icon="@drawable/abc_vector_test"
+            android:title="Interiores"/>
+
+
+    </group>
+</menu>
