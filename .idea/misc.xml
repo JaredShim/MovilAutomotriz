@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/8vo_Cuatrimestre/Moviles/MovilAutomotriz/app/src/main/res/layout/activity_create_or_update_car.xml" value="0.24635416666666668" />
+        <entry key="..\:/8vo_Cuatrimestre/Moviles/MovilAutomotriz/app/src/main/res/layout/activity_find_car.xml" value="0.24635416666666668" />
+        <entry key="..\:/8vo_Cuatrimestre/Moviles/MovilAutomotriz/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/8vo_Cuatrimestre/Moviles/MovilAutomotriz/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/8vo_Cuatrimestre/Moviles/MovilAutomotriz/app/src/main/res/layout/activity_menu_main.xml" value="0.24895833333333334" />
+        <entry key="..\:/8vo_Cuatrimestre/Moviles/MovilAutomotriz/app/src/main/res/layout/activity_sis_alt_motor.xml" value="0.25" />
+        <entry key="..\:/8vo_Cuatrimestre/Moviles/MovilAutomotriz/app/src/main/res/layout/app_bar_main.xml" value="0.10885416666666667" />
+        <entry key="..\:/8vo_Cuatrimestre/Moviles/MovilAutomotriz/app/src/main/res/layout/nav_header_main.xml" value="0.18671875" />
+        <entry key="..\:/8vo_Cuatrimestre/Moviles/MovilAutomotriz/app/src/main/res/menu/activity_main_drawer.xml" value="0.24895833333333334" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
