@@ -9,7 +9,7 @@ class createOrUpdateCar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_or_update_car)
-        getSupportActionBar()?.setTitle("Creación o modificación de reporte");
+        supportActionBar?.title = "Creación o modificación de reporte";
         val updateBtn = findViewById<Button>(R.id.updateBtn)
         val createBtn = findViewById<Button>(R.id.createBtn)
 

@@ -16,13 +16,6 @@
         android:theme="@style/Theme.MovilAutomotriz"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
-        <activity android:name=".MenuMain" />
-        <activity
-            android:name=".createOrUpdateCar"
-            android:exported="false" />
-        <activity
-            android:name=".findCar"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -33,6 +26,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MenuMain"/>
+        <activity
+            android:name=".createOrUpdateCar"
+            android:exported="false" />
+        <activity
+            android:name=".findCar"
+            android:exported="false" />
+        <activity
+            android:name=".Generals"
+            android:exported="false" />
+        <activity
+            android:name=".Carroceria"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralesMotor"
+            android:exported="false" />
+        <activity
+            android:name=".Interiores"
+            android:exported="false" />
+        <activity
+            android:name=".SistemasMotor"
+            android:exported="false" />
+        <activity
+            android:name=".Automotrices"
+            android:exported="false" />
     </application>
 
 </manifest>

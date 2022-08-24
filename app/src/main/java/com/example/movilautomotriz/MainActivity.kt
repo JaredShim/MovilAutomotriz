@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             if(user.toString() == "" || password.toString() == ""){
                 toast()
             }else{
-                val upsertCarView = Intent(this,createOrUpdateCar::class.java)
+                val menuMain = Intent(this,MenuMain::class.java)
                 CoroutineScope(Dispatchers.IO).launch {
                     Log.d("user", "enviando request...")
                     val call = getRetrofit().create(APIService::class.java).getUser("usuarios/$user/$password").execute()
@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
                     val response = call.body() as getUserRes
                     runOnUiThread {
                         if(response.status == "200" ){
-                            startActivity(upsertCarView)
+                            startActivity(menuMain)
                         }else{
                             toast()
                         }

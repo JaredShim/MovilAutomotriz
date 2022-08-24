@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".GeneralesMotor">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="120dp">
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="354dp"
+            android:layout_height="709dp"
+            android:layout_marginTop="11dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="3dp">
+
+            <TextView
+                android:id="@+id/Bateria"
+                android:layout_width="68dp"
+                android:layout_height="24dp"
+                android:text="Sellos:"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="338dp"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinnerBateria"
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/spinnerBateria2"
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/spinnerBateria3"
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="17dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonBateria"
+                    android:layout_width="229dp"
+                    android:layout_height="match_parent"
+                    android:text="Observaciones" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/CamaraBateria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textEnd"
+                    android:textAllCaps="false"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textIsSelectable="false"
+                    app:icon="@drawable/ic_baseline_add_a_photo_24"
+                    app:iconSize="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:text="Adhesivos:"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="69dp"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Spinner
+                        android:id="@+id/spinner97"
+                        android:layout_width="103dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Spinner
+                        android:id="@+id/spinner98"
+                        android:layout_width="99dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Spinner
+                        android:id="@+id/spinner96"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="354dp"
+                    android:layout_height="79dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="227dp"
+                        android:layout_height="match_parent"
+                        android:text="Observaciones" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/Camara4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="textEnd"
+                        android:textAllCaps="false"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textIsSelectable="false"
+                        app:icon="@drawable/ic_baseline_add_a_photo_24"
+                        app:iconSize="50dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acentamientos:"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner93"
+                    android:layout_width="104dp"
+                    android:layout_height="match_parent" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/spinner94"
+                    android:layout_width="114dp"
+                    android:layout_height="match_parent" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/spinner95"
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="206dp"
+                    android:layout_height="76dp"
+                    android:layout_weight="1"
+                    android:text="Observaciones" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/camara30"
+                    android:layout_width="69dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd"
+                    android:textAllCaps="false"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textIsSelectable="false"
+                    app:icon="@drawable/ic_baseline_add_a_photo_24"
+                    app:iconSize="50dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fugas:"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner99"
+                    android:layout_width="104dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/spinner100"
+                    android:layout_width="94dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/spinner101"
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="364dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button32"
+                    android:layout_width="206dp"
+                    android:layout_height="76dp"
+                    android:layout_weight="1"
+                    android:text="Observaciones" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/camara27"
+                    android:layout_width="69dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd"
+                    android:textAllCaps="false"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textIsSelectable="false"
+                    app:icon="@drawable/ic_baseline_add_a_photo_24"
+                    app:iconSize="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Estado:"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="78dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/spinner106"
+                        android:layout_width="104dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Spinner
+                        android:id="@+id/spinner107"
+                        android:layout_width="94dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Spinner
+                        android:id="@+id/spinner108"
+                        android:layout_width="103dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button33"
+                        android:layout_width="206dp"
+                        android:layout_height="76dp"
+                        android:layout_weight="1"
+                        android:text="Observaciones" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/camara32"
+                        android:layout_width="69dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:textAllCaps="false"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textIsSelectable="false"
+                        app:icon="@drawable/ic_baseline_add_a_photo_24"
+                        app:iconSize="50dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="347dp"
+                        android:layout_height="wrap_content"
+                        android:text="Aceite:"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="81dp"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinner112"
+                            android:layout_width="109dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                        <Spinner
+                            android:id="@+id/spinner113"
+                            android:layout_width="109dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <Spinner
+                            android:id="@+id/spinner114"
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="87dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button34"
+                            android:layout_width="206dp"
+                            android:layout_height="76dp"
+                            android:layout_weight="1"
+                            android:text="Observaciones" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <Button
+                            android:id="@+id/camara31"
+                            android:layout_width="69dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAlignment="textEnd"
+                            android:textAllCaps="false"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textIsSelectable="false"
+                            app:icon="@drawable/ic_baseline_add_a_photo_24"
+                            app:iconSize="50dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView35"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Drenado de Aceite:"
+                            android:textSize="16sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="76dp"
+                            android:orientation="horizontal">
+
+                            <Spinner
+                                android:id="@+id/spinner109"
+                                android:layout_width="109dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+                            <Spinner
+                                android:id="@+id/spinner111"
+                                android:layout_width="110dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+                            <Spinner
+                                android:id="@+id/spinner115"
+                                android:layout_width="110dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="105dp"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/button36"
+                                android:layout_width="206dp"
+                                android:layout_height="76dp"
+                                android:layout_weight="1"
+                                android:text="Observaciones" />
+
+                            <Space
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <Button
+                                android:id="@+id/camara34"
+                                android:layout_width="69dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textAlignment="textEnd"
+                                android:textAllCaps="false"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textIsSelectable="false"
+                                app:icon="@drawable/ic_baseline_add_a_photo_24"
+                                app:iconSize="50dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Combustible:"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="101dp"
+                                android:orientation="horizontal">
+
+                                <Spinner
+                                    android:id="@+id/spinner"
+                                    android:layout_width="109dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1" />
+
+                                <Space
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1" />
+
+                                <Spinner
+                                    android:id="@+id/spinner2"
+                                    android:layout_width="110dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1" />
+
+                                <Space
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1" />
+
+                                <Spinner
+                                    android:id="@+id/spinner3"
+                                    android:layout_width="110dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="99dp"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/button"
+                                    android:layout_width="206dp"
+                                    android:layout_height="76dp"
+                                    android:layout_weight="1"
+                                    android:text="Observaciones" />
+
+                                <Space
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1" />
+
+                                <Button
+                                    android:id="@+id/camara"
+                                    android:layout_width="69dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:textAlignment="textEnd"
+                                    android:textAllCaps="false"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                    android:textIsSelectable="false"
+                                    app:icon="@drawable/ic_baseline_add_a_photo_24"
+                                    app:iconSize="50dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <Button
+                                    android:id="@+id/buttonsiguienteGM"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Siguiente" />
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/buttonatrasGM"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Atras" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

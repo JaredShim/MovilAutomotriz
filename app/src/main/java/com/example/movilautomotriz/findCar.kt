@@ -7,6 +7,7 @@ import android.text.Editable
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -26,11 +27,11 @@ class findCar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_find_car)
-        getSupportActionBar()?.setTitle("Modificación de reporte");
 
         val folio = findViewById<EditText>(R.id.noSerie).text;
         val continueBtn = findViewById<Button>(R.id.continueBtn);
-        val collectData = Intent(this, GeneralesMotor::class.java)
+        val collectData = Intent(this, Generals::class.java)
+
 
         continueBtn.setOnClickListener{
             CoroutineScope(Dispatchers.IO).launch {

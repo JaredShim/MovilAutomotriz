@@ -1,5 +1,6 @@
 package com.example.movilautomotriz
 
+import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
 import android.os.PersistableBundle
@@ -46,13 +47,47 @@ class MenuMain :  AppCompatActivity(), NavigationView.OnNavigationItemSelectedLi
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
 
         when (item.itemId) {
-            R.id.Generales -> Toast.makeText(this, "Generales", Toast.LENGTH_SHORT).show()
-            R.id.SistemasMotor -> Toast.makeText(this, "Sistemas Motor", Toast.LENGTH_SHORT).show()
-            R.id.GeneralesMotor -> Toast.makeText(this, "Generales Motor", Toast.LENGTH_SHORT)
-                .show()
-            R.id.Automotrices -> Toast.makeText(this, "Automotrices", Toast.LENGTH_SHORT).show()
-            R.id.Carroceria -> Toast.makeText(this, "Carroceria", Toast.LENGTH_SHORT).show()
-            R.id.Interiores -> Toast.makeText(this, "Interiores", Toast.LENGTH_SHORT).show()
+            R.id.Buscar -> {
+                val findCar = Intent(this, findCar::class.java )
+
+                startActivity(findCar)
+            }
+            R.id.NuevoRegistro -> {
+                val nuevoregistro = Intent(this, Generals::class.java )
+
+                startActivity(nuevoregistro)
+            }
+            R.id.Generales -> {
+                val Generals = Intent(this, Generals::class.java )
+
+                startActivity(Generals)
+            }
+            R.id.SistemasMotor -> {
+                val SistemasMotor = Intent(this, SistemasMotor::class.java )
+
+                startActivity(SistemasMotor)
+            }
+
+            R.id.GeneralesMotor -> {
+                val GeneralesMotor = Intent(this, GeneralesMotor::class.java )
+
+                startActivity(GeneralesMotor)
+            }
+            R.id.Automotrices -> {
+                val Automotrices = Intent(this, Automotrices::class.java )
+
+                startActivity(Automotrices)
+            }
+            R.id.Carroceria -> {
+                val Carroceria = Intent(this, Carroceria::class.java )
+
+                startActivity(Carroceria)
+            }
+            R.id.Interiores -> {
+                val Interiores = Intent(this, Interiores::class.java )
+
+                startActivity(Interiores)
+            }
         }
         drawer.closeDrawer(GravityCompat.START)
         return true
